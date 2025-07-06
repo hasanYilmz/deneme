@@ -18,6 +18,12 @@
     <section>
       <h2>İron Man</h2>
 
+      <a
+        href="https://www.marvel.com/characters/iron-man-tony-stark/on-screen"
+        target="_blank"
+        ><img src="ironman.jpg" alt="" width="250"
+      /></a>
+
       <p>
         Mucit Tony Stark, zırhlı Yenilmez Demir Adam rolünde sorunlara yüksek
         Dahi mucit Tony Stark, ebeveynlerinin zamansız ölümlerinden sonra babası
@@ -38,5 +44,37 @@
         <li>Hayır Sever</li>
       </ul>
     </section>
+    <section>
+      <form>
+        <label for="isim">isminiz:</label>
+        <input type="text" required style="margin-left: 40px" />
+        <br /><br />
+        <label for="soyisim">soyadınız:</label>
+        <input type="text" required style="margin-left: 40px" />
+        <br /><br />
+        <label for="süper">Süper Kahraman Adı:</label>
+        <input type="text" required />
+
+        <br /><br />
+
+        <label for="sehir" id="güç"></label>
+        <select name="" id="güç" required>
+          <option value="">demir zırhı</option>
+          <option value="">zekası</option>
+          <option value="">lazer ışını</option>
+          <option value="">üçmak</option>
+        </select>
+
+        <br /><br />
+        <textarea
+          placeholder="Kendinizi buraya tanımlayın"
+          rows="4"
+          cols="50"
+          required="doldurmasanda olur"
+        ></textarea>
+      </form>
+    </section>
+
+    <button type="submit">gönder</button>
   </body>
 </html>
